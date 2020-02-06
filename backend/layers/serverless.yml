@@ -1,0 +1,10 @@
+service: layers
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+layers:
+  logging:
+    handler: handler.logging
+    path: logging
